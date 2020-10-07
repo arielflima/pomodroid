@@ -19,6 +19,7 @@ export const Content = styled.View`
   background-color: #fff;
   border-radius: 55px;
 `;
+
 export const Timer = styled.View`
   width: 100%;
   height: 70%;
@@ -28,10 +29,12 @@ export const Timer = styled.View`
   align-items: center;
   justify-content: center;
 `;
+
 export const TimerTitle = styled.Text`
   color: #d9ecf2;
   font-size: 30px;
 `;
+
 export const Time = styled.Text`
   color: #d9ecf2;
   font-size: 100px;
@@ -75,7 +78,6 @@ export const Footer = styled.View`
   background-color: #1aa6b7;
   border-bottom-right-radius: 55px;
   border-bottom-left-radius: 55px;
-
 `;
 export const DurationSession = styled.View`
   width: 45%;
@@ -98,7 +100,6 @@ export const DurationView = styled.View`
 export const Duration = styled.Text`
   color: #d9ecf2;
   font-size: 20px;
-
 `;
 
 export const BreakSession = styled.View`
@@ -118,5 +119,3 @@ export const BreakView = styled.View`
   justify-content: space-between;
   align-items: center;
 `;
-
-
